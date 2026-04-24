@@ -570,7 +570,23 @@ section {
     transition: border-color .2s, transform .2s;
 }
 
+.cert-card-edu {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    transition: border-color .2s, transform .2s;
+}
+
 .cert-card:hover {
+    border-color: var(--accent);
+    transform: translateX(4px);
+}
+
+.cert-card-edu:hover {
     border-color: var(--accent);
     transform: translateX(4px);
 }
